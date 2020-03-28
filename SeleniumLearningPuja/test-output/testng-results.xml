@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14108" started-at="2020-03-28T06:03:08Z" finished-at="2020-03-28T06:03:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14108" started-at="2020-03-28T06:03:08Z" finished-at="2020-03-28T06:03:22Z">
+      <class name="jupyter_toys.Fortest">
+        <test-method status="PASS" signature="Testcase1()[pri:0, instance:jupyter_toys.Fortest@130c12b7]" name="Testcase1" duration-ms="14000" started-at="2020-03-28T11:33:08Z" finished-at="2020-03-28T11:33:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase1 -->
+      </class> <!-- jupyter_toys.Fortest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
