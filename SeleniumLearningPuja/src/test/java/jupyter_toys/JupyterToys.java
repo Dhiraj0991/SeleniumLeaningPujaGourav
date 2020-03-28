@@ -49,9 +49,11 @@ public class JupyterToys
 		driver.findElement(By.xpath("//textarea[@id='message']")).sendKeys("I Like Shopping");
 		driver.findElement(By.xpath("//a[contains(text(),'Submit')]")).click();
 		String str=driver.findElement(By.xpath("//div[@class='alert alert-success']")).getText();
+		String expected="we appreciate your feedback.";
 		System.out.println(str);
 		SoftAssert assertion= new SoftAssert();
-		assertion.assertEquals(str, "Thanks Puja, we appreciate your feedback.");
+		//assertion.assertEquals(str, "Thanks Puja, we appreciate your feedback.");
+		assertion.assertEquals(str.contains("we appreciate your feedback."), expected.contains("we appreciate your feedback."));
 	}
 	
 	
