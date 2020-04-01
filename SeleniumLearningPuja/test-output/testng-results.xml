@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14108" started-at="2020-03-28T06:03:08Z" finished-at="2020-03-28T06:03:22Z">
+  <suite name="Default suite" duration-ms="39341" started-at="2020-03-30T13:37:28Z" finished-at="2020-03-30T13:38:07Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14108" started-at="2020-03-28T06:03:08Z" finished-at="2020-03-28T06:03:22Z">
-      <class name="jupyter_toys.Fortest">
-        <test-method status="PASS" signature="Testcase1()[pri:0, instance:jupyter_toys.Fortest@130c12b7]" name="Testcase1" duration-ms="14000" started-at="2020-03-28T11:33:08Z" finished-at="2020-03-28T11:33:22Z">
+    <test name="Default test" duration-ms="39341" started-at="2020-03-30T13:37:28Z" finished-at="2020-03-30T13:38:07Z">
+      <class name="jupyter_toys.JupyterToys">
+        <test-method status="PASS" signature="Testcase1()[pri:0, instance:jupyter_toys.JupyterToys@643b1d11]" name="Testcase1" duration-ms="16564" started-at="2020-03-30T19:07:28Z" finished-at="2020-03-30T19:07:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Testcase1 -->
-      </class> <!-- jupyter_toys.Fortest -->
+        <test-method status="PASS" signature="Testcase2()[pri:0, instance:jupyter_toys.JupyterToys@643b1d11]" name="Testcase2" duration-ms="19174" started-at="2020-03-30T19:07:45Z" finished-at="2020-03-30T19:08:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase2 -->
+        <test-method status="PASS" signature="Testcase3()[pri:0, instance:jupyter_toys.JupyterToys@643b1d11]" name="Testcase3" duration-ms="350" started-at="2020-03-30T19:08:04Z" finished-at="2020-03-30T19:08:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase3 -->
+        <test-method status="PASS" signature="Testcase4()[pri:0, instance:jupyter_toys.JupyterToys@643b1d11]" name="Testcase4" duration-ms="3145" started-at="2020-03-30T19:08:04Z" finished-at="2020-03-30T19:08:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase4 -->
+      </class> <!-- jupyter_toys.JupyterToys -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
