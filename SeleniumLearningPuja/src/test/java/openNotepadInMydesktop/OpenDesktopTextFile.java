@@ -14,10 +14,12 @@ public class OpenDesktopTextFile
 		Desktop d = Desktop.getDesktop();
 		try
 		{
-			d.open(new File("C:\\Users\\PUJA\\Desktop\\New folder\\java\\language.txt"));
-			PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("C:\\Users\\PUJA\\Desktop\\New folder\\java\\language.txt", true)));
+			String path="C:\\Users\\PUJA\\Desktop\\New folder\\java\\language.docx";
+			d.open(new File(path));
+			PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(path, true)));
 			out.println("Selenium");
-			out.flush();
+			//out.flush();
+			Thread.sleep(2000);
 			out.close();
 		} 
 		catch (IOException e)
@@ -26,7 +28,7 @@ public class OpenDesktopTextFile
 			System.out.println(e);
 		}
 		Thread.sleep(2000);
-		Runtime.getRuntime().exec("taskkill /IM notepad.exe");
+		Runtime.getRuntime().exec("taskkill /IM WINWORD.exe");
 	}
 
 }

@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="redbus.ForFirefox">
+      <class name="excelReadWrite.ReadWrite">
         <methods>
-          <include name="errorMessage"/>
+          <include name="readWriteDataFromExcel"/>
         </methods>
-      </class> <!-- redbus.ForFirefox -->
+      </class> <!-- excelReadWrite.ReadWrite -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

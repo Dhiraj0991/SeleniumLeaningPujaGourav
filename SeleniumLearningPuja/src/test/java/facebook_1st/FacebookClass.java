@@ -1,4 +1,4 @@
-package facebook;
+package facebook_1st;
 
 
 import org.openqa.selenium.By;
